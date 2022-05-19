@@ -1,0 +1,37 @@
+:root {
+  --btn-color: #ffffff;
+  --second-btn-color: #303030;
+  --title-color: #ffffff;
+  --pre-title-color: #303030;
+  --price-list-color: #9da4bd;
+  --subtitle-color: #555555;
+  --accent-color: #ff6c00;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ----------------------------header--------------------------- */
+
+.header {
+  background-color: gray;
+}
+
+.header-link,
+.header-tel {
+    font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+
+}
