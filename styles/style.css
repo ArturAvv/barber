@@ -1,0 +1,351 @@
+:root {
+  --btn-color: #ffffff;
+  --second-btn-color: #303030;
+  --title-color: #ffffff;
+  --pre-title-color: #303030;
+  --price-list-color: #9da4bd;
+  --subtitle-color: #555555;
+  --accent-color: #ff6c00;
+  --typical-margin: 20px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ----------------------------header--------------------------- */
+
+.header {
+  background-color: gray;
+  padding-top: 32px;
+}
+
+.header-link,
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+
+.header-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--btn-color);
+}
+
+/* ----------------------------hero--------------------------- */
+
+.hero-content {
+  background-color: var(--pre-title-color);
+  padding: 272px 96px 206px 96px;
+}
+
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.2em;
+  color: var(--pre-title-color);
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--accent-color);
+}
+
+.hero-pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+  margin-bottom: var(--typical-margin);
+}
+
+.hero-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--title-color);
+  margin-bottom: var(--typical-margin);
+}
+
+.hero-sub-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--price-list-color);
+  max-width: 400px;
+}
+
+/* ----------------------------about--------------------------- */
+
+.about {
+  padding-top: 169px;
+  padding-bottom: 131px;
+}
+
+.about-pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--pre-title-color);
+  margin-bottom: var(--typical-margin);
+}
+
+.about-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: var(--pre-title-color);
+  margin-bottom: var(--typical-margin);
+}
+
+.about-sub-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--subtitle-color);
+  margin-bottom: var(--typical-margin);
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.85;
+  letter-spacing: 0.02em;
+  color: var(--subtitle-color);
+  margin-bottom: 40px;
+}
+
+.about-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--second-btn-color);
+}
+
+/* ----------------------------price--------------------------- */
+
+.price {
+  background-color: var(--pre-title-color);
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.price-pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+  margin-bottom: var(--typical-margin);
+}
+
+.price-title {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--title-color);
+  margin-bottom: 44px;
+}
+
+.price-list-l,
+.price-list-r {
+  border: 1px solid #ffffff;
+  padding: 30px 40px;
+}
+
+.price-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--price-list-color);
+}
+
+.price-item {
+  margin-bottom: var(--typical-margin);
+}
+
+.price-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--btn-color);
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
+}
+
+/* ----------------------------benefits--------------------------- */
+
+.benefits {
+  padding-top: 143px;
+  padding-bottom: 137px;
+}
+.benefits-box {
+  width: 170px;
+  height: 133px;
+  border: 1px solid #000000;
+  padding: 20px 24px;
+}
+
+.benefits-count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--pre-title-color);
+  display: block;
+}
+
+.benefits-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--pre-title-color);
+}
+
+.benefits-pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--pre-title-color);
+  margin-bottom: var(--typical-margin);
+}
+
+.benefits-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--pre-title-color);
+  margin-bottom: var(--typical-margin);
+}
+
+.benefits-sub-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--subtitle-color);
+}
+
+/* ----------------------------masters--------------------------- */
+
+.masters {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.masters-pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--pre-title-color);
+  margin-bottom: var(--typical-margin);
+}
+
+.masters-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--pre-title-color);
+  margin-bottom: 44px;
+}
+
+.masters-name {
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #303030;
+  margin-bottom: 8px;
+  margin-top: 30px;
+}
+
+.masters-prof {
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
