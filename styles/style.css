@@ -419,6 +419,7 @@ body {
 .masters {
   padding-top: 130px;
   padding-bottom: 130px;
+  background-color: #F7F7F7;
 }
 
 .masters-list {
@@ -500,10 +501,24 @@ body {
 /* ---------------note+contacts-------------------- */
 
 .contacts-title {
-  margin-top: 40px;
-  margin-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
+.note {
+  display: block;
+}
+
+.contacts {
+  display: block;
+}
+
+
+.forms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* ------------------------------footer-------------------- */
 .footer .container {
