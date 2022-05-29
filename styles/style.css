@@ -349,8 +349,8 @@ body {
 .benefits-item {
   width: 170px;
   height: 133px;
-  border: 1px solid #000000;
   padding: 20px 24px;
+  background-color: #f7f7f7;
 }
 
 .benefits-list {
@@ -419,7 +419,7 @@ body {
 .masters {
   padding-top: 130px;
   padding-bottom: 130px;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .masters-list {
@@ -509,15 +509,46 @@ body {
   display: block;
 }
 
+.note-title {
+  margin-bottom: 132px;
+}
+
 .contacts {
   display: block;
 }
-
 
 .forms {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.address-mail {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+  color: #9da4bd;
+}
+
+.address-tel,
+.address-link,
+.address-time {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+.address-sub-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--subtitle-color);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 /* ------------------------------footer-------------------- */
